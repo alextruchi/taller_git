@@ -1,11 +1,12 @@
-package comprobacion;
+package comprobacionT;
 
 import org.junit.Test;
 
-import static comprobacion.PassComprobation.NivelSecurity.*;
+import static comprobacionT.PassComprobation.NivelSecurity.*;
 import static org.junit.Assert.*;
 
 public class PassComprobationTest {
+
 
     @Test
     public void DEBIL_MENOR_A_8_CARACTERES() {
@@ -16,7 +17,7 @@ public class PassComprobationTest {
     @Test
     public void DEBIL_SOLO_LETRAS() {
 
-        assertEquals(DEBIL,PassComprobation.comprobacion("abcdefgh"));
+        assertEquals(DEBIL,PassComprobation.comprobacion( "abcdabfv"));
     }
 
     @Test
