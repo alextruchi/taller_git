@@ -1,6 +1,8 @@
-package comprobacion;
+package comprobacionT;
 
 public class PassComprobation {
+
+
 
     public enum NivelSecurity{
         DEBIL, MEDIA, FUERTE
