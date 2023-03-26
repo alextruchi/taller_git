@@ -1,8 +1,7 @@
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 import org.example.Parseador;
-import org.junit.jupiter.api.*;
+import org.junit.Test;
 
 public class ParseadorTest {
 
