@@ -1,7 +1,7 @@
-import org.example.EcuacionPrimerGrado;
-import org.junit.jupiter.api.*;
-
 import static org.junit.Assert.assertEquals;
+
+import org.example.EcuacionPrimerGrado;
+import org.junit.Test;
 
 public class EcuacionPrimerGradoIntegrationTest {
 

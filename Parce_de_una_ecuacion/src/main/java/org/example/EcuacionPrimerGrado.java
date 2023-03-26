@@ -1,10 +1,5 @@
 package org.example;
 
-/**
- * Ecuacion de primer grado
- * Solucion:  x = (c - b) / a
- * es decir:  x = (parte3 - parte2)/parte1
- */
 public class EcuacionPrimerGrado {
 
     private Parseador parseador = new Parseador();
